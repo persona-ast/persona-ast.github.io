@@ -1,0 +1,28 @@
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+.menu{
+	float: right;
+	margin-top: 40px;
+	position: absolute;
+
+}
+.menu ul{
+
+}
+.menu li{
+	float: left;
+	margin-right: 20px;
+	font-size: 20px;
+	border: 2px solid #000;
+	border-radius: 10px;
+	background-color: #fff 
+}
+.menu a{
+	color: #000;
+	text-decoration: none;
+}
+.menu a:hover{
+	color: blue;
+}
