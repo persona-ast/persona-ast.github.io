@@ -2,27 +2,44 @@
 	width: 1000px;
 	margin: 0 auto;
 }
+
 .menu{
 	float: right;
 	margin-top: 40px;
 	position: absolute;
-
-}
-.menu ul{
-
+	position: fixed;
 }
 .menu li{
 	float: left;
-	margin-right: 20px;
+	margin-right: 30px;
 	font-size: 20px;
-	border: 2px solid #000;
+	border: 2px solid #4a9df2;
 	border-radius: 10px;
-	background-color: #fff 
+	padding: 10px; 
+	list-style-type: none;
+	background-color: #fff;
 }
 .menu a{
-	color: #000;
+	color: #4a9df2;
 	text-decoration: none;
 }
+.menu li:hover{
+	background-color: #cccccc;
+}
 .menu a:hover{
-	color: blue;
+	color: #1f466e;
+}
+.block{
+	padding-top: 150px;
+}
+.text h2{
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+	color: #4a9df2;
+}
+.text p{
+	color: #4a9df2;
+	font-size: 20px;
+
 }
