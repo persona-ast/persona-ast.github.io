@@ -1,3 +1,4 @@
+
 .wrapper{
 	width: 1000px;
 	margin: 0 auto;
@@ -16,7 +17,6 @@
 	border-radius: 10px;
 	padding: 10px; 
 	list-style-type: none;
-	background-color: #fff;
 }
 .menu a{
 	color: #4a9df2;
@@ -27,6 +27,9 @@
 }
 .menu a:hover{
 	color: #1f466e;
+}
+.mnu{
+	padding-top: 20px;
 }
 .block{
 	padding-top: 150px;
@@ -40,5 +43,86 @@
 .text p{
 	color: #4a9df2;
 	font-size: 20px;
+}
+.paket{
+	padding-top: 150px;
 
+}
+.paket h2{
+	text-align: center;
+	color:  #4a9df2;
+	font-size: 25px;
+	font-style: bold;
+	margin-bottom: 50px;
+}
+
+.services{
+	padding-top: 150px;
+}
+.services h2{
+	text-align: center;
+	font-size: 25px;
+	color: #16488d;
+}
+.border{
+	margin-top: 40px;
+	margin: 0;
+}
+.border .home{
+	margin-right: 50px;
+}
+.border .uborka{
+	margin-left: 50px;
+}
+.uborka{
+	width: 355px;
+	height: 450px;
+	border-radius: 30px;
+	border: 1px solid #5598dd;;
+	float: left;
+	color: #5598dd;
+}
+.uborka p{
+	font-size: 13px;
+	margin-left: 25px;
+	color: #5598dd;
+
+}
+.uborka img{
+	margin-left: 15px;
+}
+.home{
+	width: 355px;
+	height: 450px;
+	border-radius: 30px;
+	border: 1px solid #5598dd;;
+	float: right;
+	color: #5598dd;
+}
+.home1{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.home h4{
+	font-size: 13px;
+	margin: 0;
+	margin-left: 10px;
+}
+.home p{
+	margin: 0;
+	font-size: 13px;
+}
+.nash_contact{
+	padding-top: 150px;
+}
+.nash_contact h2{
+	clear: both;
+	text-align: center;
+	color: #4a9df2;
+	font-size: 18px;
+}
+.nash_contact p{
+	text-align: center;
+	color: #4a9df2;
+	font-size: 20px;
 }
