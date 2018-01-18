@@ -5,7 +5,8 @@ body, a, p, h1, h2, h3, h4, h5, h6{
 .header{
 	width: 100%;
 	height: 960px;
-	background-image: url(../img/gorod.jpg);
+	background-image: url(../img/gorod.jpg) ;
+	background-position: top center;
 }
 .content{
 	width: 1000px;
@@ -41,16 +42,144 @@ body, a, p, h1, h2, h3, h4, h5, h6{
 	color: #000;
 
 }
-.ssilka a:hover{
-	color: blue;
-}
-.center{
-}
+
 .center p{
 	text-align: center;
 	font-size: 35px;
-	color: #fff;
+	color: #000;
 	margin: 0;
 	clear: both;
 	padding-top: 200px;
+	font-style: bold;
+}
+.wrapper{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.menu{
+	float: right;
+	margin-top: 40px;
+	position: absolute;
+}
+.menu li{
+	float: left;
+	margin-right: 30px;
+	font-size: 20px;
+	border: 2px solid #4a9df2;
+	border-radius: 10px;
+	padding: 10px; 
+	list-style-type: none;
+}
+.menu a{
+	color: #4a9df2;
+	text-decoration: none;
+}
+.menu li:hover{
+	background-color: #cccccc;
+}
+.menu a:hover{
+	color: #1f466e;
+}
+.mnu{
+	padding-top: 20px;
+}
+.block{
+	padding-top: 150px; 
+}
+.text h2{
+	text-align: center;
+	font-style: italic;
+	font-size: 25px;
+	color: #4a9df2;
+	margin-bottom: 30px;
+}
+.text p{
+	color: #4a9df2;
+	font-size: 20px;
+	color: #4a9df2;
+	margin-bottom: 30px;
+}
+.paket{
+	padding-top: 150px;
+
+}
+.paket h2{
+	text-align: center;
+	color:  #4a9df2;
+	font-size: 25px;
+	font-style: bold;
+}
+
+.services{
+	padding-top: 150px;
+}
+.services h2{
+	text-align: center;
+	font-size: 25px;
+	color: #16488d;
+	margin-bottom: 50px;
+}
+.border{
+	margin-top: 40px;
+	margin: 0;
+}
+.border .home{
+	margin-right: 50px;
+}
+.border .uborka{
+	margin-left: 50px;
+}
+.uborka{
+	width: 400px;
+	height: 500px;
+	border-radius: 30px;
+	border: 1px solid #5598dd;;
+	float: left;
+	color: #5598dd;
+}
+.uborka p{
+	font-size: 15px;
+	margin-left: 25px;
+	color: #5598dd;
+
+}
+.uborka img{
+	margin-left: 15px;
+}
+.home{
+	width: 400px;
+	height: 500px;
+	border-radius: 30px;
+	border: 1px solid #5598dd;;
+	float: right;
+	color: #5598dd;
+	margin-bottom: 200px;
+}
+.home1{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.home h4{
+	font-size: 15px;
+	margin: 0;
+	margin-left: 10px;
+}
+.home p{
+	margin: 0;
+	font-size: 15px;
+}
+.nash_contact h2{
+	clear: both;
+	text-align: center;
+	color: #4a9df2;
+	font-size: 18px;
+}
+.nash_contact p{
+	text-align: center;
+	color: #4a9df2;
+	font-size: 20px;
+}
+.top{
+	position: fixed;
 }
